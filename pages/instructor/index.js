@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import InstructorRoute from "../../components/routes/instructorRoute";
+import InstructorRoute from "../../components/routes/instructorRoute.js";
 import { Avatar, Tooltip } from "antd";
 import Link from "next/link";
 import { CheckCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";

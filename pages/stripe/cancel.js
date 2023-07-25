@@ -1,5 +1,5 @@
 import {CloudSyncOutlined} from "@ant-design/icons";
-import UserRouter from "../../components/routes/UserRoute";
+import UserRouter from "../../components/routes/UserRoute.js";
 
 
 const StripeCancel = () =>{

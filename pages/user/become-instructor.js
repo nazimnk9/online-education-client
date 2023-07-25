@@ -4,7 +4,7 @@ import { Button } from "antd";
 import { SettingOutlined, UserSwitchOutlined, LoadingOutlined } from "@ant-design/icons";
 import { toast } from "react-toastify";
 import axios from "axios";
-import UserRoute from "../../components/routes/UserRoute";
+import UserRoute from "../../components/routes/UserRoute.js";
 
 const BecomeInstructor = () =>{
     //state

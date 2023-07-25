@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import InstructorRoute from "../../../../components/routes/instructorRoute";
+import InstructorRoute from "../../../../components/routes/instructorRoute.js";
 import axios from "axios";
 import { Avatar, Tooltip, Button, Modal, List } from "antd";
 import {
@@ -12,7 +12,7 @@ import {
     UserSwitchOutlined,
 } from "@ant-design/icons";
 import ReactMarkdown from "react-markdown";
-import AddLessonForm from "../../../../components/forms/AddLessonForm";
+import AddLessonForm from "../../../../components/forms/AddLessonForm.js";
 import { toast } from "react-toastify";
 import Item from "antd/lib/list/Item";
 

@@ -1,13 +1,13 @@
 import axios from "axios";
-import InstructorRoute from "../../../../components/routes/instructorRoute";
+import InstructorRoute from "../../../../components/routes/instructorRoute.js";
 import { useState, useEffect } from "react";
-import CourseCreateForm from "../../../../components/forms/CourseCreateForm";
+import CourseCreateForm from "../../../../components/forms/CourseCreateForm.js";
 import Resizer from "react-image-file-resizer";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
 import { List, Avatar, Modal } from "antd";
 import { DeleteOutlined } from "@ant-design/icons";
-import UpdateLessonForm from "../../../../components/forms/UpdateLessonForm";
+import UpdateLessonForm from "../../../../components/forms/UpdateLessonForm.js";
 
 
 const { Item } = List;

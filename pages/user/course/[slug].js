@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useState, useEffect, createElement } from "react";
 import axios from "axios";
-import StudentRoute from "../../../components/routes/StudentRoute";
+import StudentRoute from "../../../components/routes/StudentRoute.js";
 import { Button, Menu, Avatar } from "antd";
 import ReactPlayer from "react-player";
 import ReactMarkdown from "react-markdown";

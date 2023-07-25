@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext } from "react";
 import { Context } from "../../context";
-import InstructorRoute from "../../components/routes/instructorRoute";
+import InstructorRoute from "../../components/routes/instructorRoute.js";
 import axios from "axios";
 import {
     DollarOutlined,
