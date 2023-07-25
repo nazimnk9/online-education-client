@@ -1,7 +1,7 @@
 import axios from "axios";
-import InstructorRoute from "../../../components/routes/instructorRoute";
+import InstructorRoute from "../components/routes/InstructorRoute";
 import { useState } from "react";
-import CourseCreateForm from "../../../components/forms/CourseCreateForm";
+import CourseCreateForm from "../components/forms/CourseCreateForm";
 import Resizer from "react-image-file-resizer";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
