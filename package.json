@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
