@@ -1,5 +1,5 @@
 import axios from "axios";
-import InstructorRoute from "../../../components/routes/instructorRoute.js";
+import InstructorRoute from "../../../components/routes/InstructorRoute";
 import { useState } from "react";
 import CourseCreateForm from "../../../components/forms/CourseCreateForm.js";
 import Resizer from "react-image-file-resizer";
