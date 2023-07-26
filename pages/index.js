@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import CourseCard from "../components/cards/CourseCard";
 
-let Index = ({ courses }) => {
+let Index = () => {
      const [courses, setCourses] = useState([]);
 
      useEffect(() => {
