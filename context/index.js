@@ -10,7 +10,8 @@ const initialState = {
 };
 
 // create context
-const Context = createContext();
+//const Context = createContext();
+createContext({state: {user: null}});
 
 //root reducer
 const rootReducer = (state, action) => {
