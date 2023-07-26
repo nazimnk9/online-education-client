@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import CourseCard from "../components/cards/CourseCard";
 
-let Index = () => {
-     const [courses, setCourses] = useState([]);
+let Index = ({ courses }) => {
+     const [coursesData, setCoursesData] = useState([]);
 
      useEffect(() => {
          const fetchCourses = async () => {
              const { data } = await axios.get("/api/courses");
-             setCourses(data);
+             setCoursesData(data);
          };
          fetchCourses();
      }, []);
@@ -18,7 +18,7 @@ let Index = () => {
             <h1 className="jumbotron text-center bg-primary square">Online Education</h1>
             <div className="container-fluid">
                 <div className="row">
-                    {courses.map((course) => (
+                    {coursesData.map((course) => (
                         <div key={course._id} className="col-md-4">
                             <CourseCard course={course} />
                         </div>
