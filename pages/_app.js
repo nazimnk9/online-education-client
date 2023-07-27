@@ -6,8 +6,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Provider } from "../context";
 import axios from "axios";
-axios.defaults.baseURL = 'https://online-education-server.onrender.com';
 function MyApp ({Component, pageProps}) {
+  axios.defaults.baseURL = 'https://online-education-server.onrender.com';
     return (
         <Provider>
           <ToastContainer position="top-center" />
