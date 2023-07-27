@@ -15,7 +15,7 @@ app
         server.use(
             "/api",
             createProxyMiddleware({
-            target: "https://online-education-server-nazimnk9.onrender.com",
+            target: "https://online-education-server.onrender.com",
             changeOrigin: true,
         })
       );
@@ -26,7 +26,7 @@ app
 
     server.listen(3000, (err) => {
         if(err) throw err;
-        console.log("> Ready on https://online-education-server-nazimnk9.onrender.com");
+        console.log("> Ready on https://online-education-server.onrender.com");
     });
   })
   .catch(err => {
